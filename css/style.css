@@ -88,33 +88,53 @@ footer {
 
 main .intro {
     display: flex;
-    flex-direction: row;
     gap: 20px;
-    margin-bottom: 20px;}
-main .intro .intro-texto {
-    flex: 2;
-    padding: 10px;
-    text-align: justify;
+    margin-bottom: 20px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+main .intro > div {
+    flex: 1;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    background: #f9f9f9;
+}
+
+main .intro .intro-texto {
+    flex: 2;
+    text-align: justify;
 }
 
 main .intro .intro-texto p {
-    font-size: 20px;
-    text-align: center;
-    padding: 20px 10px 10px 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
+
 main .intro .intro-texto span {
     font-weight: bold;
     color: #50b3a2;
 }
+
 main .intro .intro-img {
-    flex: 1;
-    padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;    
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 10px; 
-    
+    align-items: center;
+}
+
+main .intro .intro-img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.introduccion-modulo {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: justify;
+    font-size: 1.1rem;
 }
