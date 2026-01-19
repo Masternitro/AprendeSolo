@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../svg/php.svg" type="image/svg+xml">
+</head>
+<body>
+     <div class="header-container">
+        <div class="logo">
+            <img src="../svg/php.svg" alt="icono php">
+        </div>
+
+        <div id="nav"></div>
+    </div>
+
+    <main>
+        <h1>PHP</h1>
+        <p>Contenido de PHP...</p>
+    </main>
+
+    
+<script> fetch('../plantillas/header-modulos.html') .then(response => response.text()) .then(data => { document.getElementById('nav').innerHTML = data; }); </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infles Tecnico</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../svg/english.svg" type="image/svg+xml">
+</head>
+<body>
+     <div class="header-container">
+        <div class="logo">
+            <img src="../svg/english.svg" alt="icono english">
+        </div>
+
+        <div id="nav"></div>
+    </div>
+
+    <main>
+        <h1>Ingles Tecnico</h1>
+        <p>Contenido de Ingles Tecnico  ...</p>
+    </main>
+
+    
+<script> fetch('../plantillas/header-modulos.html') .then(response => response.text()) .then(data => { document.getElementById('nav').innerHTML = data; }); </script>
+</body>
+</html>

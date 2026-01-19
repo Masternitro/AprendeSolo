@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubunutu</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../svg/tux.svg" type="image/svg+xml">
+
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo">
+            <img src="../svg/tux.svg" alt="Icono Ubuntu">
+        </div>
+
+        <div id="nav"></div>
+    </div>
+    <h1>Ubuntu</h1>
+
+<script> fetch('../plantillas/header-modulos.html') .then(response => response.text()) .then(data => { document.getElementById('nav').innerHTML = data; }); </script>
+</body>
+</html>

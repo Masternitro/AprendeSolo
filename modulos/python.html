@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../svg/python.svg" type="image/svg+xml">
+</head>
+<body>
+     <div class="header-container">
+        <div class="logo">
+            <img src="../svg/python.svg" alt="icono python">
+        </div>
+
+        <div id="nav"></div>
+    </div>
+
+    <main>
+        <h1>Python</h1>
+        <p>Contenido de Python...</p>
+    </main>
+
+    
+<script> fetch('../plantillas/header-modulos.html') .then(response => response.text()) .then(data => { document.getElementById('nav').innerHTML = data; }); </script>
+</body>
+</html>
